@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>無題</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: linear-gradient(120deg, #f9fafc 0%, #f2ecff 100%);
+      font-family: 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 550px;
+      margin: 48px auto 0 auto;
+      background: rgba(255,255,255,0.93);
+      border-radius: 18px;
+      box-shadow: 0 4px 24px rgba(150,120,200,0.13);
+      padding: 2.5em 2em 2em 2em;
+    }
+    .title {
+      text-align: center;
+      font-size: 1.3em;
+      margin-bottom: 1.5em;
+      font-weight: bold;
+      color: #7a5ca0;
+      letter-spacing: 0.1em;
+    }
+    .story {
+      line-height: 2.1;
+      font-size: 1.08em;
+      letter-spacing: 0.02em;
+      text-align: justify;
+      margin-bottom: 2em;
+      position: relative;
+    }
+    .story::before, .story::after {
+      content: "“";
+      color: #b9a3e3;
+      font-size: 2.2em;
+      vertical-align: top;
+      position: absolute;
+      left: -0.7em;
+      top: -0.3em;
+      opacity: 0.4;
+    }
+    .story::after {
+      content: "”";
+      left: auto;
+      right: -0.7em;
+      top: auto;
+      bottom: -0.3em;
+    }
+    .question {
+      text-align: right;
+      font-size: 1.05em;
+      color: #a88cc7;
+      margin-top: 1.7em;
+      letter-spacing: 0.03em;
+      font-style: italic;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 1.2em 0.6em; }
+      .title { font-size: 1.1em; }
+      .story { font-size: 0.97em; }
+      .question { font-size: 0.96em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">超短編小説「ねぇ、あなたはどうなの？」</div>
+    <div class="story">
+      喜びや悲しみを繊細に味わい、それを言葉や行動に昇華する力を持っている。まるで詩のように、日常の中で小さな瞬間を大切にしながら、大きな感情を抱える人。そんなあなたは、時に傷つきやすく、自己反省に沈むこともあるかもしれないけど、その分、他人への共感や優しさが際立っている。あなたはまるで物語の主人公—不完全だけど、だからこそ愛おしく、強く輝く存在が、あなたなの。<br><br>
+      ねぇ、あなたの本音なんて知らないよ。ねぇ、あなたの紡ぐ綺麗な言葉で構成された小説に、いつか私の影のあるものがあるかなんてわからないよ。それでも、あなたの隣で、コロッケをパクッと食べて、飛行機雲を指でなぞって、あぁ、小学生帰りしたみたいだなんて笑い合える今が、そこにある。それだけで私は、今はいいって思えるの。
+    </div>
+    <div class="question">
+      ねぇ、あなたはどうなの？
+    </div>
+  </div>
+</body>
+</html>
